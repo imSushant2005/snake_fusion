@@ -1,0 +1,35 @@
+name: snake_fusion
+description: An addictive modern Snake game with power-ups
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.5.1
+  shared_preferences: ^2.5.3
+  provider: ^6.1.5+1
+  intl: ^0.20.2
+  collection: ^1.19.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/eat.mp3
+    - assets/sounds/powerup.mp3
+    - assets/sounds/game_over.mp3
+    - assets/sounds/level_up.mp3
+    - assets/sounds/portal_appear.mp3
+    - assets/sounds/portal_enter.mp3
+    - assets/sounds/shield_hit.wav
+    - assets/sounds/enemy_near.wav
+    - assets/sounds/devil_laugh.wav
+    - assets/sounds/click.wav
+    - assets/sounds/bgm.mp3

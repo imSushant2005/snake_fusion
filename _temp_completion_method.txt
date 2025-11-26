@@ -1,0 +1,12 @@
+  void _showCompletion() {
+    if (!mounted) return;
+    
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (context) => GameCompletionScreen(
+          score: _gameController.gameState.score,
+          duration: _gameController.totalDuration,
+        ),
+      ),
+    );
+  }
